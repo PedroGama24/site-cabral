@@ -19,7 +19,7 @@ const Hero = () => {
             <Link to="/agendar">Agendar Agora</Link>
           </Button>
           
-          <Button asChild variant="outline" className="border-white hover:bg-cabral-darkBlue">
+          <Button asChild className="bg-white text-cabral-blue hover:bg-gray-200">
             <Link to="/servicos">Nossos Serviços</Link>
           </Button>
         </div>

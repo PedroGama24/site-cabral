@@ -20,7 +20,7 @@ const services: Service[] = [
     id: 2,
     title: 'Polimento Técnico',
     description: 'Remoção de riscos leves e médios, recuperação de brilho e proteção da pintura.',
-    imageUrl: 'https://images.unsplash.com/photo-1635774855536-9728f2610245?auto=format&fit=crop&q=80&w=500&h=350'
+    imageUrl: 'https://imgs.search.brave.com/-WqrWc-oG8LGvM2PlYGiQYktj1jo1iqCk9vpSGRoIMI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZXBh/cmFkb3JzYS5jb20u/YnIvd3AtY29udGVu/dC91cGxvYWRzLzIw/MjIvMDgvUlNBX01B/VEVSSUFfMDJfSEVB/REVSLmpwZw'
   },
   {
     id: 3,

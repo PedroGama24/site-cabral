@@ -12,7 +12,7 @@ const Navbar = () => {
             <img 
               src="/lovable-uploads/a3dc8a57-408e-4a11-9945-d7908d660d59.png" 
               alt="Cabral Estética Automotiva" 
-              className="h-10 w-auto"
+              className="h-24 w-auto"
             />
           </Link>
         </div>
