@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
-import { WhatsApp } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
 const services = [
@@ -105,7 +105,7 @@ const SchedulePage = () => {
                       href="https://wa.me/5547987654321?text=Olá! Gostaria de agendar um serviço de estética automotiva"
                       className="inline-flex items-center bg-green-500 text-white px-8 py-4 rounded-md hover:bg-green-600 transition-colors text-lg"
                     >
-                      <WhatsApp className="mr-2" size={24} />
+                      <MessageCircle className="mr-2" size={24} />
                       <span>Agendar pelo WhatsApp</span>
                     </a>
                   </div>

@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
-import { WhatsApp } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
 const plans = [
   {
@@ -86,7 +86,7 @@ const PlansPage = () => {
                       href={`https://wa.me/5547987654321?text=Olá! Gostaria de saber mais sobre o plano ${plan.name}`}
                       className="w-full flex items-center justify-center bg-green-500 text-white py-3 px-4 rounded hover:bg-green-600 transition-colors"
                     >
-                      <WhatsApp className="mr-2" /> 
+                      <MessageCircle className="mr-2" /> 
                       <span>Solicitar Orçamento</span>
                     </a>
                   </CardFooter>
@@ -106,7 +106,7 @@ const PlansPage = () => {
               href="https://wa.me/5547987654321?text=Olá! Gostaria de informações sobre planos corporativos"
               className="inline-flex items-center bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600 transition-colors"
             >
-              <WhatsApp className="mr-2" />
+              <MessageCircle className="mr-2" />
               <span>Solicitar proposta corporativa</span>
             </a>
           </div>

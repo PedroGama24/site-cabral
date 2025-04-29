@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
+import { MessageCircle } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
 const services = [
@@ -99,7 +100,7 @@ const ServicesPage = () => {
               href="https://wa.me/5547987654321"
               className="inline-flex items-center bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600 transition-colors"
             >
-              <WhatsApp className="mr-2" />
+              <MessageCircle className="mr-2" />
               <span>Fale pelo WhatsApp</span>
             </a>
           </div>

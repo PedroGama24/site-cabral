@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
-import { WhatsApp } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
 const ContactSection = () => {
   const { toast } = useToast();
@@ -74,7 +74,7 @@ const ContactSection = () => {
                   href="https://wa.me/5547987654321"
                   className="inline-flex items-center bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600 transition-colors"
                 >
-                  <WhatsApp className="mr-2" />
+                  <MessageCircle className="mr-2" />
                   <span>Fale pelo WhatsApp</span>
                 </a>
               </div>
