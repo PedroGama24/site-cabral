@@ -9,46 +9,46 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 const services = [
   {
     id: 1,
-    title: 'Lavagem Completa',
+    title: 'Revitalização de Plásticos Externos Interna',
     description: 'Lavagem externa completa, limpeza de rodas, pneus, caixa de roda e compartimento de motor.',
     details: 'Nossa lavagem completa remove sujeiras profundas, insetos, excrementos de pássaros e outros contaminantes. Utilizamos produtos de alta qualidade que não danificam a pintura e garantem um resultado perfeito.',
     imageUrl: 'https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?auto=format&fit=crop&q=80&w=800&h=500'
   },
   {
     id: 2,
-    title: 'Polimento Técnico',
+    title: 'Remoção de Chuva Ácida',
     description: 'Remoção de riscos leves e médios, recuperação de brilho e proteção da pintura.',
     details: 'O polimento técnico é realizado em etapas, com equipamentos profissionais e compostos abrasivos específicos para cada tipo de pintura. O resultado é uma superfície livre de imperfeições, com brilho intenso e proteção duradoura.',
     imageUrl: 'https://imgs.search.brave.com/-WqrWc-oG8LGvM2PlYGiQYktj1jo1iqCk9vpSGRoIMI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZXBh/cmFkb3JzYS5jb20u/YnIvd3AtY29udGVu/dC91cGxvYWRzLzIw/MjIvMDgvUlNBX01B/VEVSSUFfMDJfSEVB/REVSLmpwZw'
   },
   {
     id: 3,
-    title: 'Vitrificação Premium',
+    title: 'Vidrificação de plasticos de 1 a 3 anos',
     description: 'Proteção cerâmica de alta durabilidade para pintura, vidros e partes plásticas.',
     details: 'A vitrificação premium cria uma camada protetora sobre a pintura, vidros e partes plásticas do veículo, aumentando a resistência a riscos, raios UV e contaminantes. Além disso, proporciona um brilho espelhado e facilita a limpeza do veículo.',
     imageUrl: 'https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=800&h=500'
   },
   {
     id: 4,
-    title: 'Higienização Completa',
+    title: 'Limpeza de Couro',
     description: 'Limpeza profunda de todo o interior, incluindo bancos, carpetes e painel.',
     details: 'Nossa higienização completa remove sujeiras, manchas, odores e agentes alérgenos do interior do seu veículo. Utilizamos equipamentos de extração e produtos específicos para cada tipo de material, garantindo um ambiente limpo e saudável.',
     imageUrl: 'https://images.unsplash.com/photo-1601362840469-51e4d8d58785?auto=format&fit=crop&q=80&w=800&h=500'
   },
   {
     id: 5,
-    title: 'Cristalização de Vidros',
+    title: 'Polimento Geral',
     description: 'Tratamento que aumenta a visibilidade e repele água e sujeira dos vidros.',
     details: 'A cristalização cria uma película invisível sobre os vidros, que repele água, poeira e facilita a remoção de insetos. Também melhora a visibilidade em dias de chuva e reduz o acúmulo de sujeira.',
     imageUrl: 'https://images.unsplash.com/photo-1542282088-fe8426682b8f?auto=format&fit=crop&q=80&w=800&h=500'
   },
-  {
+ /*  {
     id: 6,
     title: 'Revitalização de Plásticos',
     description: 'Recuperação da cor e brilho de plásticos externos e internos.',
     details: 'Nossa revitalização de plásticos recupera a aparência original de parachoques, painéis e outros componentes plásticos que ficaram ressecados ou desbotados devido à exposição solar. O tratamento inclui limpeza profunda, hidratação e proteção UV.',
     imageUrl: 'https://images.unsplash.com/photo-1597007066704-67bf2068d5b2?auto=format&fit=crop&q=80&w=800&h=500'
-  }
+  } */
 ];
 
 const ServicesPage = () => {
@@ -97,7 +97,7 @@ const ServicesPage = () => {
               Entre em contato conosco via WhatsApp para tirar dúvidas, solicitar orçamentos ou agendar um serviço.
             </p>
             <a
-              href="https://wa.me/5547987654321"
+              href="https://wa.me/5547997532495"
               className="inline-flex items-center bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600 transition-colors"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-whatsapp mr-2" viewBox="0 0 16 16">

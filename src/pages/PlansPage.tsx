@@ -9,39 +9,46 @@ import { MessageCircle } from 'lucide-react';
 const plans = [
   {
     id: 1,
-    name: "Básico",
+    name: "Lavagem Básica",
     description: "Ideal para manter seu veículo sempre limpo",
     features: [
-      "Lavagem externa completa",
-      "Aplicação de cera de carnaúba",
+      "Pré-lavagem com espuma",
+      "Aplicação de shampoo PH neutro",
       "Limpeza de rodas e pneus",
-      "Aspiração interna básica"
+      "Secagem  com toalha microfibra",
+      "Cera (proteção 1 mês)",
+      "Aspiração completa",
+      "Limpeza dos plásticas interna"
     ]
   },
   {
     id: 2,
-    name: "Premium",
+    name: "Lavagem Intermediara",
     description: "Tratamento completo para aparência impecável",
     features: [
-      "Lavagem externa detalhada",
-      "Polimento técnico",
-      "Higienização interna completa",
-      "Hidratação de plásticos e couro",
-      "Cristalização de vidros"
+      "Pré-lavagem com espuma",
+      "Aplicação de shampoo PH neutro",
+      "Limpeza de rodas, pneus e caixa de roda",
+      "Secagem  com toalha microfibra",
+      "Cera (proteção 4 mês)",
+      "Limpeza dos plásticas interna",
+      "Revitalização plásticos interno"
     ]
   },
   {
     id: 3,
-    name: "Gold",
+    name: "Lavagem Premium",
     description: "Proteção máxima e durabilidade para seu veículo",
     features: [
-      "Lavagem técnica",
-      "Descontaminação ferrosa",
-      "Polimento em 3 etapas",
-      "Vitrificação de pintura",
-      "Higienização interna premium",
-      "Proteção de tecidos e couro",
-      "Revisão completa após 30 dias"
+      "Pré-lavagem com espuma",
+      "Aplicação de shampoo PH neutro",
+      "Limpeza de rodas, pneus e caixa de roda",
+      "Secagem  com toalha microfibra",
+      "Cera (proteção 4 mês)",
+      "Limpeza dos plásticas interna",
+      "Revitalização plásticos interno,externos",
+      "Descontaminação pintura",
+      "Hidratação banco de couro"
     ]
   }
 ];
@@ -83,7 +90,7 @@ const PlansPage = () => {
                   </CardContent>
                   <CardFooter className="pt-6">
                     <a
-                      href={`https://wa.me/5547987654321?text=Olá! Gostaria de saber mais sobre o plano ${plan.name}`}
+                      href={`https://wa.me/5547997532495?text=Olá! Gostaria de saber mais sobre o plano ${plan.name}`}
                       className="w-full flex items-center justify-center bg-green-500 text-white py-3 px-4 rounded hover:bg-green-600 transition-colors"
                     >
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-whatsapp mr-2" viewBox="0 0 16 16">
@@ -105,7 +112,7 @@ const PlansPage = () => {
               Temos planos especiais para empresas com frota de veículos. Entre em contato conosco para uma proposta personalizada.
             </p>
             <a
-              href="https://wa.me/5547987654321?text=Olá! Gostaria de informações sobre planos corporativos"
+              href="https://wa.me/5547997532495?text=Olá! Gostaria de informações sobre planos corporativos"
               className="inline-flex items-center bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600 transition-colors"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-whatsapp mr-2" viewBox="0 0 16 16">

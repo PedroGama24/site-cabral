@@ -12,25 +12,25 @@ type Service = {
 const services: Service[] = [
   {
     id: 1,
-    title: 'Lavagem Completa',
+    title: 'Revitalização de Plásticos Externos Interna',
     description: 'Lavagem externa completa, limpeza de rodas, pneus, caixa de roda e compartimento de motor.',
     imageUrl: 'https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?auto=format&fit=crop&q=80&w=500&h=350'
   },
   {
     id: 2,
-    title: 'Polimento Técnico',
+    title: 'Limpeza de Couro',
     description: 'Remoção de riscos leves e médios, recuperação de brilho e proteção da pintura.',
     imageUrl: 'https://imgs.search.brave.com/-WqrWc-oG8LGvM2PlYGiQYktj1jo1iqCk9vpSGRoIMI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZXBh/cmFkb3JzYS5jb20u/YnIvd3AtY29udGVu/dC91cGxvYWRzLzIw/MjIvMDgvUlNBX01B/VEVSSUFfMDJfSEVB/REVSLmpwZw'
   },
   {
     id: 3,
-    title: 'Vitrificação Premium',
+    title: 'Vidrificação de plasticos de 1 a 3 anos',
     description: 'Proteção cerâmica de alta durabilidade para pintura, vidros e partes plásticas.',
     imageUrl: 'https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=500&h=350'
   },
   {
     id: 4,
-    title: 'Higienização Completa',
+    title: 'Vidrificação de Couro',
     description: 'Limpeza profunda de todo o interior, incluindo bancos, carpetes e painel.',
     imageUrl: 'https://images.unsplash.com/photo-1601362840469-51e4d8d58785?auto=format&fit=crop&q=80&w=500&h=350'
   }

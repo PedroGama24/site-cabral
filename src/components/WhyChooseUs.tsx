@@ -5,7 +5,7 @@ const WhyChooseUs = () => {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-cabral-blue">Por que escolher a Cabral</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-cabral-blue">Por que escolher a Cabral Estética Automotiva</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="text-center p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
@@ -34,8 +34,8 @@ const WhyChooseUs = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
             </div>
-            <h3 className="text-xl font-bold mb-3 text-cabral-blue">Profissionais Qualificados</h3>
-            <p className="text-gray-600">Nossa equipe é formada por especialistas treinados nas melhores técnicas de estética automotiva.</p>
+            <h3 className="text-xl font-bold mb-3 text-cabral-blue">Serviço Móvel</h3>
+            <p className="text-gray-600">Coleta e Entrega de Veículos, Uma opção direta e de fácil compreensão, que destaca o caráter móvel do serviço.</p>
           </div>
         </div>
       </div>

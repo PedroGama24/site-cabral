@@ -26,7 +26,7 @@ const ContactPage = () => {
             <h2 className="text-3xl font-bold mb-8 text-center text-cabral-blue">Onde Estamos</h2>
             <div className="rounded-lg overflow-hidden shadow-lg h-96">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.4278521209335!2d-44.131813!3d-22.52564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9e98ff82d61525%3A0x2ee3c2c3129452fa!2svia%20S%C3%A9rgio%20Braga%2C%20Ponte%20Alta%2C%20Volta%20Redonda%20-%20Rio%20de%20Janeiro%2C%2027265%2C%20Brasil!5e0!3m2!1spt-BR!2sbr!4v1745937141101!5m2!1spt-BR!2sbr" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d747.8220314265133!2d-49.1321871971733!3d-26.92693518112531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df1bf82226c46f%3A0x63edcd9191a7bf59!2sR.%20Jos%C3%A9%20Naz%C3%A1rio%20Rebello%20-%20Velha%20Central%2C%20Blumenau%20-%20SC!5e0!3m2!1spt-BR!2sbr!4v1745950522243!5m2!1spt-BR!2sbr" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 

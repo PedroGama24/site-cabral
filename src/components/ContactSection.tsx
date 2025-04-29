@@ -41,7 +41,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Endereço</h4>
-                  <p className="text-gray-600">Rua Exemplo, 123 - Centro, Blumenau, SC</p>
+                  <p className="text-gray-600">Rua José Nazario Rebello, 21 - Velha Central, Blumenau, SC</p>
                 </div>
               </div>
 
@@ -53,7 +53,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Telefone</h4>
-                  <p className="text-gray-600">(47) 98765-4321</p>
+                  <p className="text-gray-600">(47) 99753-2495</p>
                 </div>
               </div>
 
@@ -65,13 +65,13 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Email</h4>
-                  <p className="text-gray-600">contato@cabralestética.com</p>
+                  <p className="text-gray-600">cabralestetica12@gmail.com</p>
                 </div>
               </div>
 
               <div className="mt-8">
                 <a
-                  href="https://wa.me/5547987654321"
+                  href="https://wa.me/5547997532495"
                   className="inline-flex items-center bg-green-500 text-white px-6 py-3 rounded-md hover:bg-green-600 transition-colors"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-whatsapp mr-2" viewBox="0 0 16 16">
@@ -84,7 +84,7 @@ const ContactSection = () => {
           </div>
 
           <div>
-            <form onSubmit={handleSubmit} className="space-y-6 bg-gray-50 p-6 rounded-lg">
+            {/* <form onSubmit={handleSubmit} className="space-y-6 bg-gray-50 p-6 rounded-lg">
               <div className="space-y-2">
                 <label htmlFor="name" className="block font-medium">Nome</label>
                 <Input id="name" placeholder="Seu nome completo" required />
@@ -108,7 +108,7 @@ const ContactSection = () => {
               <Button type="submit" className="bg-cabral-blue hover:bg-cabral-darkBlue w-full">
                 Enviar Mensagem
               </Button>
-            </form>
+            </form> */}
           </div>
         </div>
       </div>
